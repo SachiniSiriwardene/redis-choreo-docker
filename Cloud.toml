@@ -1,0 +1,3 @@
+[container.image]
+repository="wso2inc"
+name="redis"
