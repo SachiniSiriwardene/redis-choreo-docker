@@ -106,7 +106,7 @@ RUN chmod +x /home/ballerina/script.sh
 WORKDIR /home/ballerina
 
 
-USER 10400
+USER 10014
 
 
 
