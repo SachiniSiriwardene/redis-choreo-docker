@@ -1,6 +1,7 @@
 # Auto Generated Dockerfile
 FROM ballerina/jvm-runtime:1.0
 
+USER 10014
 
 
 
@@ -106,7 +107,6 @@ RUN chmod +x /home/ballerina/script.sh
 WORKDIR /home/ballerina
 
 
-USER 10014
 
 
 
