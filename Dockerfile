@@ -74,7 +74,7 @@ COPY redis-2.3.2.jar /home/ballerina/jars/
 COPY task-native-2.3.1.jar /home/ballerina/jars/
 COPY time-native-2.2.4.jar /home/ballerina/jars/
 COPY url-native-2.2.3.jar /home/ballerina/jars/
-COPY sachini-redis_choreo_docker-0.1.0.jar /home/ballerina/jars/
+COPY bfsitest-greeting_service-0.1.0.jar /home/ballerina/jars/
 
 
 RUN apk add --update make 
