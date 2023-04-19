@@ -1,9 +1,6 @@
 # Auto Generated Dockerfile
 FROM ballerina/jvm-runtime:1.0
 
-
-
-
 LABEL maintainer="dev@ballerina.io"
 COPY auth-native-2.5.0.jar /home/ballerina/jars/
 COPY ballerina-auth-2.5.0.jar /home/ballerina/jars/
@@ -94,7 +91,7 @@ RUN apk --update add redis
 
 
 RUN addgroup troupe \
-   && adduser -S -s /bin/bash -g 'ballerina' -G troupe -D ballerina \
+   && adduser -S -s /bin/bash -g 'ballerina' -G troupe -D 10014 \
    && apk add --update --no-cache bash \
    && rm -rf /var/cache/apk/*
 
@@ -109,9 +106,8 @@ WORKDIR /home/ballerina
 
 
 
-
 EXPOSE  9090 6379
-USER ballerina
+USER 10014
 
 
 
