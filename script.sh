@@ -3,6 +3,5 @@
 redis-server --daemonize yes
 
 
-java -Xdiag -cp "sachini-redis_choreo_docker-0.1.0.jar:jars/*" 'sachini/redis_choreo_docker/0/$_init'
-
+java -Xdiag -cp "bfsitest-greeting_service-3.1.0.jar:jars/*" 'bfsitest/greeting_service/3/$_init'
 
