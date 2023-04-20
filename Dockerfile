@@ -74,6 +74,8 @@ COPY redis-2.3.2.jar /home/ballerina/jars/
 COPY task-native-2.3.1.jar /home/ballerina/jars/
 COPY time-native-2.2.4.jar /home/ballerina/jars/
 COPY url-native-2.2.3.jar /home/ballerina/jars/
+
+RUN bal build
 COPY bfsitest-greeting_service-3.1.0.jar /home/ballerina/jars/ 
 
 
